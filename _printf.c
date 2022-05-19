@@ -20,7 +20,7 @@ int _printf(const char *format, ...)
 
 	va_start(args, format);
 
-	displayed = _sellect_format(format, args);
+	displayed = _print_fmt(format, args);
 	va_end(args);
 	return (displayed);
 }
