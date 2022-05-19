@@ -20,7 +20,7 @@ int _print_char(va_list args);
 int _print_str(va_list args);
 int _print_fmt(const char *format, va_list args);
 int _print_spec(char format, va_list args);
-int _print_invalid_spec(char prev_format, char format, int count);
+int _print_invalid_spec(char prev_format, char format, int num);
 int _print_int(va_list args);
 void _recursion_int(int a);
 int _print_int_binary(va_list args);
