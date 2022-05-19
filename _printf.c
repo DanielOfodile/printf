@@ -30,6 +30,7 @@ else
 {
 if (format[i + 1] == 'c')
 {
+i++;
 _putchar(va_arg(ap, int));
 i++;
 }
@@ -47,7 +48,6 @@ j++;
 }
 }
 
-i++;
 }
 
 va_end(ap);
