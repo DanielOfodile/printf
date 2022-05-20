@@ -24,5 +24,7 @@ int _print_invalid_spec(char prev_format, char format, int num);
 int _print_int(va_list args);
 void _recursion_int(int a);
 int _print_int_binary(va_list args);
+void _recursion_int_binary(int a);
+int _validate_char(char _type);
 
 #endif /* _MAIN_H_ */
