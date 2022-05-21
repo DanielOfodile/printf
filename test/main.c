@@ -13,6 +13,7 @@ char *str = "John";
 int i, j;
 char *str1 = "My School";
 
+_printf("%b\n", 98);
 _printf("Hello Mr. %c\n", 'A');
 _printf("%c initializes my name\n", 'J');
 _printf("Just a test\n");
