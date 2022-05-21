@@ -58,7 +58,7 @@ int _print_fmt(const char *format, va_list args)
 int _print_spec(char format, va_list args)
 {
 	int i  = 0, displayed = 0;
-	spc_dt _types[] = {
+		spc_dt _types[] = {
 		{"c", _print_char},
 		{"s", _print_str},
 		{"d", _print_int},
